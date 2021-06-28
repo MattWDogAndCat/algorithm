@@ -1,0 +1,22 @@
+{
+  "name": "algorithm",
+  "version": "1.0.0",
+  "description": "This is a sample algorithm project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dasijiee/algorithm.git"
+  },
+  "author": "Matt Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dasijiee/algorithm/issues"
+  },
+  "homepage": "https://github.com/dasijiee/algorithm#readme",
+  "devDependencies": {
+    "jest": "^27.0.5"
+  }
+}
