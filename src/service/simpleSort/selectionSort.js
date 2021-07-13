@@ -1,11 +1,11 @@
-const {compareSize, exchangePostion} = require('../../common/common');
+const {compareBigger, exchangePostion} = require('../../common/common');
 
 const selectionSort = (arrayList) => {
     let minIndex;
     for (let i = 0; i<arrayList.length-1; i++){
         minIndex = i ;
         for ( let j = i+1 ; j<arrayList.length; j++ ){
-            if (compareSize(arrayList[minIndex], arrayList[j])) {
+            if (compareBigger(arrayList[minIndex], arrayList[j])) {
                 minIndex = j; 
             }
         }
